@@ -21,11 +21,9 @@ export default {
 <style scoped>
   .botao{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    position: absolute;
 
     /* Texto */
     font-family: 'Raleway';
@@ -39,7 +37,7 @@ export default {
   }
   .secundario:hover {
     /* Azul/20% */
-    background: #FEEFDD;
+    background: #77AF9C;
   }
   .primario {
 

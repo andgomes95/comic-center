@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    
-    <img alt="Vue logo" src="./assets/balao-comic.png">
-    <botao-login></botao-login>
+    <nav-bar></nav-bar>
   </div>
 </template>
 
 <script>
-import BotaoLogin from './components/Botoes/BotaoLogin.vue'
+import NavBar from './components/NavBar/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    BotaoLogin
+    NavBar
   }
 }
 </script>

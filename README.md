@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Cores
+- Primaria: #132A13
+- Secundaria: #FEEFDD
+- Terciaria: #77AF9C
