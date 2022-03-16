@@ -31,7 +31,7 @@ export default {
   padding: auto;
 
   /* imagemhero */
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), green;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), #132A13;
   background-repeat: no-repeat;
   background-size: 100%;
 }

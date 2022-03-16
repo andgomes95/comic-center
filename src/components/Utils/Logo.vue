@@ -27,8 +27,8 @@ export default {
   }
   .texto-logo{
     font-weight: 400;
-    font-size: 20px;
-    line-height: 19px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .texto-logo-inicio{
     color: #132A13;

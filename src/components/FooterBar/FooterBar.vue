@@ -75,11 +75,24 @@ export default {
     border: 4px;
     background: white;
     border-radius: 4px;
+    resize:none;
 }
 .inputNameFooter{
   height: 2em;
 }
 .contatosChildLink{
   padding: 5px;
+}
+@media only screen and (max-width: 800px) {
+  .footerBar{ 
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 800px){
+  .footerBar{
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 </style>
