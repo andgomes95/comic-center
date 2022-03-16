@@ -1,5 +1,5 @@
 <template>
-  <botao rotulo="Login" estilo="secundario"></botao>
+  <botao rotulo="Login" estilo="secundarioLime"></botao>
 </template>
 
 <script>

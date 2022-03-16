@@ -30,24 +30,36 @@ export default {
     font-style: normal;
   }
 
-  .secundario {
+  .secundarioLime {
     /* Azul/100% */
     border: 1px solid #132A13;
     color: #132A13;
   }
-  .secundario:hover {
+  .secundarioLime:hover {
     /* Azul/20% */
     background: #77AF9C;
   }
-  .primario {
-
+  .primarioLime {
     /* Azul/100% */
     background: #132A13;
-    /* Preto/branco */
+    color: #FEEFDD;
+  }
+  .primarioLime:hover {
+    background: #77AF9C;
+  }
+  .secundario {
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+  }
+  .secundario:hover {
+    background: #D4E4FA;
+  }
+  .primario {
+    background: #2A7AE4;
     color: #FEEFDD;
   }
   .primario:hover {
-    background: #77AF9C;
+    background: #5595E9;
   }
 
   
