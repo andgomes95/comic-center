@@ -31,13 +31,13 @@ export default {
     line-height: 30px;
   }
   .texto-logo-inicio{
-    color: #132A13;
+    color: #2A7AE4;
   }
   .texto-logo-fim{
-    color: #77AF9C;
+    /*color: #D4E4FA;*/
+    color: black;
   }
   .lime-logo{
     height: 100%;
-    width: 25%;
   }
 </style>

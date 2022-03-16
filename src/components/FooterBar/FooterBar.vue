@@ -34,7 +34,8 @@ export default {
   align-items: flex-start;
   justify-content: space-around;
   padding: 20px;
-  background: #FEEFDD;
+  /*background: #FEEFDD;*/
+  background: #D4E4FA;
   list-style-type: none;
 }
 .linksUteis{
