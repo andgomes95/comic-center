@@ -2,13 +2,16 @@
   <div id="app">
     <nav-bar></nav-bar>
     <anuncio-principal />
-    <!--Content-->
+    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
+    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
+    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
     <footer-bar />
     <rodape-desenvolvedor></rodape-desenvolvedor>
   </div>
 </template>
 
 <script>
+import CarrosselConteudo from './components/Conteudo/CarrosselConteudo.vue'
 import FooterBar from './components/FooterBar/FooterBar.vue'
 import RodapeDesenvolvedor from './components/FooterBar/RodapeDesenvolvedor.vue'
 import AnuncioPrincipal from './components/Home/AnuncioPrincipal.vue'
@@ -20,7 +23,8 @@ export default {
     NavBar,
     AnuncioPrincipal,
     FooterBar,
-    RodapeDesenvolvedor
+    RodapeDesenvolvedor,
+    CarrosselConteudo
   }
 }
 </script>
