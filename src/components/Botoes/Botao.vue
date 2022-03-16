@@ -32,20 +32,20 @@ export default {
 
   .secundarioLime {
     /* Azul/100% */
-    border: 1px solid #132A13;
-    color: #132A13;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
   }
   .secundarioLime:hover {
     /* Azul/20% */
-    background: #77AF9C;
+    background: #D4E4FA;
   }
   .primarioLime {
     /* Azul/100% */
-    background: #132A13;
+    background: #2A7AE4;
     color: #FEEFDD;
   }
   .primarioLime:hover {
-    background: #77AF9C;
+    background: #D4E4FA;
   }
   .secundario {
     border: 1px solid #2A7AE4;

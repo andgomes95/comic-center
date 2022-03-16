@@ -31,9 +31,10 @@ export default {
   padding: auto;
 
   /* imagemhero */
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), #132A13;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
 }
 .anuncioLista{
   display: flex;

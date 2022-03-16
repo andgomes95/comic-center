@@ -83,7 +83,7 @@ export default {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: #77AF9C;
+    color: #2A7AE4;
   }
   @media only screen and (max-width: 1000px){
     .carrosselConteudoOnlyDesktop{
