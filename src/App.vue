@@ -2,9 +2,11 @@
   <div id="app">
     <nav-bar></nav-bar>
     <anuncio-principal />
-    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
-    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
-    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
+    <div class="conteudo">
+      <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
+      <carrossel-conteudo :isProdutoSimilares="false" titulo="Laranja"/>
+      <carrossel-conteudo :isProdutoSimilares="false" titulo="Lima"/>
+    </div>
     <footer-bar />
     <rodape-desenvolvedor></rodape-desenvolvedor>
   </div>
@@ -37,5 +39,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   min-width: 400px;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  @media only screen and (min-width: 800px){
+    .conteudo{
+      padding: 1% 15%;
+    }
   }
 </style>

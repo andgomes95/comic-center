@@ -25,8 +25,8 @@ export default {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    width:200px;
-    height: 300px;
+    width:100%;
+    height: 100%;
     transition: 0.3s;
   }
   .cardConteudo:hover {
