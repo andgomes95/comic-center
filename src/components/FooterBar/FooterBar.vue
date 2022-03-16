@@ -13,7 +13,7 @@
       <div class="contatosChildLink"><span class="FaleConoscoFooter">Fale Conosco</span></div>
       <div class="contatosChildLink"><input type="text" placeholder="Nome" class="inputNameFooter inputFooter"></div>
       <div class="contatosChildLink"><textarea rows="3" placeholder="Escreva sua mensagem" class="inputFooter"></textarea></div>
-      <div class="contatosChildLink"><botao rotulo="Enviar" estilo="primarioLime"></botao></div>
+      <div class="contatosChildLink"><botao rotulo="Enviar" estilo="primario"></botao></div>
     </form></li>
   </ul>
 </template>
@@ -35,7 +35,7 @@ export default {
   justify-content: space-around;
   padding: 20px;
   /*background: #FEEFDD;*/
-  background: #D4E4FA;
+  background: var(--secundarioAluraGeek);;
   list-style-type: none;
 }
 .linksUteis{

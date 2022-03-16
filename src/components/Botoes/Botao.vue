@@ -30,39 +30,23 @@ export default {
     font-style: normal;
   }
 
-  .secundarioLime {
-    /* Azul/100% */
-    border: 1px solid #2A7AE4;
-    color: #2A7AE4;
-  }
-  .secundarioLime:hover {
-    /* Azul/20% */
-    background: #D4E4FA;
-  }
-  .primarioLime {
-    /* Azul/100% */
-    background: #2A7AE4;
-    color: #FEEFDD;
-  }
-  .primarioLime:hover {
-    background: #D4E4FA;
-  }
   .secundario {
-    border: 1px solid #2A7AE4;
-    color: #2A7AE4;
+    /* Azul/100% */
+    border: 1px solid var(--primarioAluraGeek);
+    color: var(--primarioAluraGeek);
   }
   .secundario:hover {
-    background: #D4E4FA;
+    /* Azul/20% */
+    background: var(--secundarioAluraGeek);;
   }
   .primario {
-    background: #2A7AE4;
+    /* Azul/100% */
+    background: var(--primarioAluraGeek);
     color: #FEEFDD;
   }
   .primario:hover {
-    background: #5595E9;
+    background: var(--terciarioAluraGeek);
   }
-
-  
 
   @media only screen and (max-width: 600px) {
     .botao{

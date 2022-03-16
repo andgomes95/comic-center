@@ -3,7 +3,7 @@
     <ul class="anuncioLista">
     <li><h1 class="anuncioTexto">Dezembro Promocional</h1></li>
     <li><h2 class="anuncioTexto">Produtos Selecionados com 33% de desconto</h2></li>
-    <li><botao estilo="primarioLime" rotulo="Ver Promoções" class="anuncioBotao"></botao></li>
+    <li><botao estilo="primario" rotulo="Ver Promoções" class="anuncioBotao"></botao></li>
     </ul>
   </div>
 </template>
