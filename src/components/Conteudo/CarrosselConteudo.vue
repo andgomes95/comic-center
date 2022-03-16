@@ -83,7 +83,7 @@ export default {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: #2A7AE4;
+    color: var(--primarioAluraGeek);;
   }
   @media only screen and (max-width: 1000px){
     .carrosselConteudoOnlyDesktop{

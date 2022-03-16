@@ -31,10 +31,10 @@ export default {
     line-height: 30px;
   }
   .texto-logo-inicio{
-    color: #2A7AE4;
+    color: var(--primarioAluraGeek);;
   }
   .texto-logo-fim{
-    /*color: #D4E4FA;*/
+    /*color: var(--primarioAluraGeek);;*/
     color: black;
   }
   .lime-logo{

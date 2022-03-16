@@ -64,6 +64,6 @@ export default {
     font-size: 16px;
     line-height: 19px;
     padding: 1%;
-    color: #2A7AE4;
+    color: var(--primarioAluraGeek);;
   }
 </style>

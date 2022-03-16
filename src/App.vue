@@ -32,6 +32,12 @@ export default {
 </script>
 
 <style>
+:root{
+  --primarioAluraGeek: #2A7AE4;
+  --secundarioAluraGeek: #D4E4FA;
+  --terciarioAluraGeek:#5595E9; 
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
