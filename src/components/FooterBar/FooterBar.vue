@@ -1,21 +1,25 @@
 <template>
-  <ul class="footerBar">
-    <li><logo class="logoFooter"></logo></li>
-    <li><ul class="linksUteis">
-      <li class="linksUteisChildLink">Quem Somos Nós</li>
-      <li class="linksUteisChildLink">Politica de Privacidade</li>
-      <li class="linksUteisChildLink">Programa Fidelidade</li>
-      <li class="linksUteisChildLink">Nossas Lojas</li>
-      <li class="linksUteisChildLink">Quero ser Franqueado</li>
-      <li class="linksUteisChildLink">Anuncie aqui</li>
-    </ul></li>
-    <li><form class="contatosFooter">
-      <div class="contatosChildLink"><span class="FaleConoscoFooter">Fale Conosco</span></div>
-      <div class="contatosChildLink"><input type="text" placeholder="Nome" class="inputNameFooter inputFooter"></div>
-      <div class="contatosChildLink"><textarea rows="3" placeholder="Escreva sua mensagem" class="inputFooter"></textarea></div>
-      <div class="contatosChildLink"><botao rotulo="Enviar" estilo="primario"></botao></div>
-    </form></li>
-  </ul>
+  <section class="bar__footer">
+    <div class="contentFooter">
+      <div class="info-empresa__footer">
+        <logo class="logoFooter"></logo>
+        <ul class="linksUteis">
+          <li class="linksUteisChildLink">Quem Somos Nós</li>
+          <li class="linksUteisChildLink">Politica de Privacidade</li>
+          <li class="linksUteisChildLink">Programa Fidelidade</li>
+          <li class="linksUteisChildLink">Nossas Lojas</li>
+          <li class="linksUteisChildLink">Quero ser Franqueado</li>
+          <li class="linksUteisChildLink">Anuncie aqui</li>
+        </ul>
+      </div>
+      <div><form class="contatosFooter">
+        <div class="contatosChildLink"><span class="FaleConoscoFooter">Fale Conosco</span></div>
+        <div class="contatosChildLink"><input type="text" placeholder="Nome" class="inputNameFooter inputFooter"></div>
+        <div class="contatosChildLink"><textarea rows="3" placeholder="Escreva sua mensagem" class="inputFooter"></textarea></div>
+        <div class="contatosChildLink"><botao rotulo="Enviar" estilo="primario"></botao></div>
+      </form></div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -28,22 +32,23 @@ export default {
 
 
 <style scoped>
-.footerBar{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+.bar__footer{
+  background: var(--secundarioAluraGeek);
   padding: 20px;
-  /*background: #FEEFDD;*/
-  background: var(--secundarioAluraGeek);;
-  list-style-type: none;
+}
+.contentFooter{
+  display: inline-grid;
+  grid-template-columns: 2fr 1.5fr;
+}
+.info-empresa__footer{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
 }
 .linksUteis{
   display: flex;
   list-style-type: none;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
 }
 .logoFooter{
   position: static;
@@ -84,16 +89,17 @@ export default {
 .contatosChildLink{
   padding: 5px;
 }
-@media only screen and (max-width: 800px) {
-  .footerBar{ 
+@media only screen and (max-width: 900px) {
+  .info-empresa__footer{ 
+    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 }
-@media only screen and (min-width: 800px){
-  .footerBar{
-    flex-direction: row;
-    align-items: flex-start;
+@media only screen and (max-width: 750px) {
+  .contentFooter{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>
