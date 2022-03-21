@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+
     <nav-bar></nav-bar>
     <anuncio-principal />
-    <home />
+    <router-view />
     <footer-bar />
     <rodape-desenvolvedor></rodape-desenvolvedor>
   </div>
@@ -13,7 +14,6 @@ import FooterBar from './components/FooterBar/FooterBar.vue'
 import RodapeDesenvolvedor from './components/FooterBar/RodapeDesenvolvedor.vue'
 import AnuncioPrincipal from './components/Home/AnuncioPrincipal.vue'
 import NavBar from './components/NavBar/NavBar.vue'
-import Home from './pages/Home.vue'
 
 export default {
   name: 'App',
@@ -22,7 +22,6 @@ export default {
     AnuncioPrincipal,
     FooterBar,
     RodapeDesenvolvedor,
-    Home
   }
 }
 </script>
