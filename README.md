@@ -1,27 +1,25 @@
-# alura-challenger
+# Comic Center
+Adaptação do Alura Challange #3, como uma loja de quadrinhos virtual.
 
-## Project setup
+>:construction: Projeto em construção :construction:
+## Instação e Execução do Projeto
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
+## Tecnologias Usadas
+- VueJS CLI;
+- Html;
+- CSS;
+- FontAwesome;
+- Javascript;
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Proximas atividades
+- [x] Página inicial
+- [ ] Página de Login
+- [ ] Página de Conteudo unitário
+- [ ] Lista de Produtos (ADMIN)
+- [ ] Página Adição de Conteudo
 
 ### Cores
 - Primaria: #132A13
