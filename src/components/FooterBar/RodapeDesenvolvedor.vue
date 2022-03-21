@@ -1,7 +1,7 @@
 <template>
-  <ul class="rodapeDesenvolvedor">
-    <li class="rodapeDesenvolvedorChild">Desenvolvido por <b>André Gomes</b></li>
-    <li class="rodapeDesenvolvedorChild">2022</li>
+  <ul class="rodape-dev">
+    <li class="child__rodape-dev">Desenvolvido por <b>André Gomes</b></li>
+    <li class="child__rodape-dev">2022</li>
   </ul>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style>
-.rodapeDesenvolvedor{
+.rodape-dev{
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -21,7 +21,7 @@ export default {
   padding: 32px;
   background: #FFFFFF  
 }
-.rodapeDesenvolvedorChild{
+.child__rodape-dev{
   padding:5px;
 }
 </style>

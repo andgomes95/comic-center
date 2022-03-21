@@ -26,26 +26,26 @@ export default {
     box-sizing: border-box;
 
     /* Texto */
-    font-family: 'Raleway';
+    font-family: var(--fonte-principal);
     font-style: normal;
   }
 
   .secundario {
     /* Azul/100% */
-    border: 1px solid var(--primarioAluraGeek);
-    color: var(--primarioAluraGeek);
+    border: 1px solid var(--cor-primaria);
+    color: var(--cor-primaria);
   }
   .secundario:hover {
     /* Azul/20% */
-    background: var(--secundarioAluraGeek);;
+    background: var(--cor-secundaria);;
   }
   .primario {
     /* Azul/100% */
-    background: var(--primarioAluraGeek);
+    background: var(--cor-primaria);
     color: #FEEFDD;
   }
   .primario:hover {
-    background: var(--terciarioAluraGeek);
+    background: var(--cor-terciaria);
   }
 
   @media only screen and (max-width: 600px) {
