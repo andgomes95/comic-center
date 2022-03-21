@@ -1,15 +1,19 @@
 <template>
-  <div class="conteudo">
-    <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
-    <carrossel-conteudo :isProdutoSimilares="false" titulo="Laranja"/>
-    <carrossel-conteudo :isProdutoSimilares="false" titulo="Lima"/>
+  <div>
+    <anuncio-principal />
+    <div class="conteudo">
+      <carrossel-conteudo :isProdutoSimilares="false" titulo="Limão"/>
+      <carrossel-conteudo :isProdutoSimilares="false" titulo="Laranja"/>
+      <carrossel-conteudo :isProdutoSimilares="false" titulo="Lima"/>
+    </div>
   </div>
 </template>
 
 <script>
 import CarrosselConteudo from '../components/Conteudo/CarrosselConteudo.vue';
+import AnuncioPrincipal from '../components/Home/AnuncioPrincipal.vue';
 export default {
-  components: {CarrosselConteudo}
+  components: {CarrosselConteudo, AnuncioPrincipal}
 }
 </script>
 

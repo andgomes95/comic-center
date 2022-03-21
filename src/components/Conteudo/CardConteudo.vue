@@ -4,7 +4,7 @@
     <div class="container__card-conteudo">
       <span class="titulo__card-conteudo">{{produto}}</span>
       <span class="preco__card-conteudo">{{preco}}</span>
-      <span class="detalhes__card-conteudo">Ver Produto</span>
+      <router-link to="/visao-geral-produto" class="detalhes__card-conteudo">Ver Produto</router-link>
     </div>
   </div>
 </template>
@@ -64,6 +64,7 @@ export default {
     font-size: 16px;
     line-height: 19px;
     padding: 1%;
-    color: var(--cor-primaria);;
+    color: var(--cor-primaria);
+    text-decoration: none;
   }
 </style>

@@ -20,8 +20,3 @@ npm run serve
 - [ ] Página de Conteudo unitário
 - [ ] Lista de Produtos (ADMIN)
 - [ ] Página Adição de Conteudo
-
-### Cores
-- Primaria: #132A13
-- Secundaria: #FEEFDD
-- Terciaria: #77AF9C
