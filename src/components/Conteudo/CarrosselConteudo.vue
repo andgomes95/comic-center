@@ -1,21 +1,21 @@
 <template>
-  <div class="carrosselGrid">
-    <div class="tituloCarrossel" v-if="!isProdutoSimilares">
-      <span class="textoTituloCarrossel">{{titulo}}</span>
-      <span class="verTudoTextCarrossel">Ver tudo <font-awesome-icon icon="arrow-right"/></span>
+  <div class="carrossel">
+    <div class="titulo__carrossel" v-if="!isProdutoSimilares">
+      <span class="texto-titulo__carrossel">{{titulo}}</span>
+      <span class="ver-tudo__Carrossel">Ver tudo <font-awesome-icon icon="arrow-right"/></span>
     </div>
-    <div class="conteinerCarrosselConteudo">
-      <div class="conteinerCarrosselConteudoMobile">
-      <card-conteudo class="containerCarrosselConteudoChild" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
-      <card-conteudo class="containerCarrosselConteudoChild" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
+    <div class="conteudo__carrossel">
+      <div class="conteudo-fixo__carrossel">
+      <card-conteudo class="card-conteudo__carrossel" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
+      <card-conteudo class="card-conteudo__carrossel" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
       </div>
-      <div class="conteinerCarrosselConteudoMobile">
-      <card-conteudo class="containerCarrosselConteudoChild" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
-      <card-conteudo class="containerCarrosselConteudoChild" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
+      <div class="conteudo-fixo__carrossel">
+      <card-conteudo class="card-conteudo__carrossel" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
+      <card-conteudo class="card-conteudo__carrossel" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
       </div>
-      <div class="carrosselConteudoOnlyDesktop">
-      <card-conteudo class="containerCarrosselConteudoChild" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
-      <card-conteudo class="containerCarrosselConteudoChild" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
+      <div class="conteudo-apenas-desktop__carrossel">
+      <card-conteudo class="card-conteudo__carrossel" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
+      <card-conteudo class="card-conteudo__carrossel" produto="ProdutoXYZ" preco="R$ 60,00" image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"/>
       </div>
     </div>
   </div>
@@ -38,60 +38,60 @@ export default {
 }
 </script>
 
-<style>
-  .carrosselGrid{
+<style scoped>
+  .carrossel{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 1%;
   }
-  .tituloCarrossel{
+  .titulo__carrossel{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 1%;
-    font-family: 'Raleway';
+    font-family: var(--fonte-principal);
     font-style: normal;
   }
-  .conteinerCarrosselConteudo{
+  .conteudo__carrossel{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
   }
-  .containerCarrosselConteudoChild{
+  .card-conteudo__carrossel{
     padding: 1%;
   }
-  .carrosselConteudoOnlyDesktop{
+  .conteudo-apenas-desktop__carrossel{
      display: flex;
     flex-direction: row;
     align-items: center;
   }
-  .conteinerCarrosselConteudoMobile{
+  .conteudo-fixo__carrossel{
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  .textoTituloCarrossel{
+  .texto-titulo__carrossel{
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
   }
-  .verTudoTextCarrossel{
+  .ver-tudo__Carrossel{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: var(--primarioAluraGeek);;
+    color: var(--cor-primaria);
   }
-  @media only screen and (max-width: 1000px){
-    .carrosselConteudoOnlyDesktop{
+  @media only screen and (max-width: 900px){
+    .conteudo-apenas-desktop__carrossel{
       display: none !important;
     }
   }
-  @media only screen and (max-width: 600px){
-    .conteinerCarrosselConteudo{
+  @media only screen and (max-width: 750px){
+    .conteudo__carrossel{
       flex-direction: column;
     }
   }

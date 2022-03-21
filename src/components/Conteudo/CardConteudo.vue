@@ -1,10 +1,10 @@
 <template>
-  <div class="cardConteudo">
-    <img class="imageConteudo" :src="image" :alt="produto">
-    <div class="containerConteudo">
-      <span class="tituloProduto">{{produto}}</span>
-      <span class="precoProduto">{{preco}}</span>
-      <span class="detalhesProduto">Ver Produto</span>
+  <div class="card-conteudo">
+    <img class="imagem__card-conteudo" :src="image" :alt="produto">
+    <div class="container__card-conteudo">
+      <span class="titulo__card-conteudo">{{produto}}</span>
+      <span class="preco__card-conteudo">{{preco}}</span>
+      <span class="detalhes__card-conteudo">Ver Produto</span>
     </div>
   </div>
 </template>
@@ -19,8 +19,8 @@ export default {
 }
 </script>
 
-<style>
-  .cardConteudo{
+<style scoped>
+  .card-conteudo{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -29,14 +29,14 @@ export default {
     height: 100%;
     transition: 0.3s;
   }
-  .cardConteudo:hover {
+  .card-conteudo:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  .imageConteudo{
+  .imagem__card-conteudo{
     width: 100%;
     height: 80%;
   }
-  .containerConteudo{
+  .container__card-conteudo{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,26 +44,26 @@ export default {
     width: 100%;
     
     padding: 5%;
-    font-family: 'Raleway';
+    font-family: var(--fonte-principal);
     font-style: normal;
   }
-  .precoProduto{
+  .preco__card-conteudo{
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     padding: 1%;
   }
-  .tituloProduto{
+  .titulo__card-conteudo{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     padding: 1%;
   }
-  .detalhesProduto{
+  .detalhes__card-conteudo{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     padding: 1%;
-    color: var(--primarioAluraGeek);;
+    color: var(--cor-primaria);;
   }
 </style>

@@ -29,9 +29,10 @@ export default {
 
 <style>
 :root{
-  --primarioAluraGeek: #2A7AE4;
-  --secundarioAluraGeek: #D4E4FA;
-  --terciarioAluraGeek:#5595E9; 
+  --cor-primaria: #77AF9C;/*#2A7AE4;*/
+  --cor-secundaria: #FEEFDD;/*#D4E4FA;*/
+  --cor-terciaria:#132A13;/*#5595E9;*/
+  --fonte-principal: 'Raleway';
 }
 
 #app {

@@ -1,10 +1,10 @@
 <template>
   <ul class="nav-bar">
     <li><logo></logo></li>
-    <li><search-bar class="searchBar"/></li>
-    <li class="right-nav-bar">
-      <botao-login class="right-nav-bar-child"></botao-login>
-      <mobile-search-bar class="mobileSearchBar right-nav-bar-child" />
+    <li><search-bar class="search-bar__nav-bar"/></li>
+    <li class="right__nav-bar">
+      <botao-login class="right-child__nav-bar"></botao-login>
+      <mobile-search-bar class="mobile-search__nav-bar right-child__nav-bar" />
     </li>
   </ul>
 </template>
@@ -30,20 +30,20 @@ export default {
   padding: 20px;
   overflow: hidden;
 }
-.right-nav-bar{
+.right__nav-bar{
   display: flex;
   justify-content: center;
 }
-.right-nav-bar-child{
+.right-child__nav-bar{
   margin: 1em;
 }
-@media only screen and (max-width: 600px) {
-  .searchBar{ 
+@media only screen and (max-width: 750px) {
+  .search-bar__nav-bar{ 
     display: none !important; 
   }
 }
-@media only screen and (min-width: 600px){
-  .mobileSearchBar{
+@media only screen and (min-width: 750px){
+  .mobile-search__nav-bar{
     display: none !important;
   }
 }
