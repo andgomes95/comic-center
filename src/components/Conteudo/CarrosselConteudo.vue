@@ -1,8 +1,8 @@
 <template>
   <div class="carrossel">
-    <div class="titulo__carrossel" v-if="!isProdutoSimilares">
-      <span class="texto-titulo__carrossel">{{titulo}}</span>
-      <span class="ver-tudo__Carrossel">Ver tudo <font-awesome-icon icon="arrow-right"/></span>
+    <div class="titulo__carrossel">
+    <span class="texto-titulo__carrossel">{{titulo}}</span>
+      <span class="ver-tudo__Carrossel" v-if="!isProdutoSimilares">Ver tudo <font-awesome-icon icon="arrow-right"/></span>
     </div>
     <div class="conteudo__carrossel">
       <div class="conteudo-fixo__carrossel">
