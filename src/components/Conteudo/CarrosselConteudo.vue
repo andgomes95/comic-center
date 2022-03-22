@@ -1,8 +1,8 @@
 <template>
   <div class="carrossel">
-    <div class="titulo__carrossel">
+    <div class="titulo__carrossel" v-if="!semTitulo">
     <span class="texto-titulo__carrossel">{{titulo}}</span>
-      <span class="ver-tudo__Carrossel" v-if="!isProdutoSimilares">Ver tudo <font-awesome-icon icon="arrow-right"/></span>
+      <router-link :to="{name: 'Listagem dos Produtos'}" class="ver-tudo__Carrossel" v-if="!isProdutoSimilares">Ver tudo <font-awesome-icon icon="arrow-right"/></router-link>
     </div>
     <div class="conteudo__carrossel">
       <div class="conteudo-fixo__carrossel">
@@ -33,7 +33,8 @@ export default {
   components:{CardConteudo, FontAwesomeIcon},
   props: {
     isProdutoSimilares: Boolean,
-    titulo: String
+    titulo: String,
+    semTitulo: Boolean
   }
 }
 </script>
