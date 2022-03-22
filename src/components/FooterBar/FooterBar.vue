@@ -16,7 +16,7 @@
         <div class="contatos-child__footer"><span class="fale-conosco__footer">Fale Conosco</span></div>
         <div class="contatos-child__footer"><input type="text" placeholder="Nome" class="input-nome__footer input__footer"></div>
         <div class="contatos-child__footer"><textarea rows="5" placeholder="Escreva sua mensagem" class="input__footer"></textarea></div>
-        <div class="contatos-child__footer"><botao rotulo="Enviar" estilo="primario"></botao></div>
+        <div class="contatos-child__footer"><botao rotulo="Enviar" estilo="primario" url="/"></botao></div>
       </form></div>
     </div>
   </section>

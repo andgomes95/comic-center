@@ -1,10 +1,10 @@
 <template>
-  <div class="logo">
+  <router-link class="logo" to="/">
     <img alt="Vue logo" src="@/assets/lime.png" class="lime-logo">
     <div class="texto-logo">
       <span class="texto-logo-inicio">Lime</span><span class="texto-logo-fim">Comics</span>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -23,6 +23,7 @@ export default {
     width: 176px;
     height: 50px;
     left: 0px;
+    text-decoration: none;
     top: 0px;
   }
   .texto-logo{
@@ -31,10 +32,9 @@ export default {
     line-height: 30px;
   }
   .texto-logo-inicio{
-    color: var(--cor-primaria);;
+    color: var(--cor-primaria);
   }
   .texto-logo-fim{
-    /*color: var(--cor-primaria);;*/
     color: black;
   }
   .lime-logo{

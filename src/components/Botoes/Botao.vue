@@ -1,9 +1,10 @@
 <template>
-  <div 
+  <router-link 
+    :to="url"
     :class="estilo"
     class="botao">
     {{rotulo}}
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -13,7 +14,11 @@ export default {
       required: true,
       type: String
     },
-    estilo: String
+    estilo: String,
+    url: { 
+      required: true,
+      type: String
+      }
   },
 }
 </script>
@@ -28,6 +33,7 @@ export default {
     /* Texto */
     font-family: var(--fonte-principal);
     font-style: normal;
+    text-decoration: none;
   }
 
   .secundario {
