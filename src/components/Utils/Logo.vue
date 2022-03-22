@@ -1,5 +1,5 @@
 <template>
-  <router-link class="logo" to="/">
+  <router-link class="logo" :to="{name: 'Home'}">
     <img alt="Vue logo" src="@/assets/lime.png" class="lime-logo">
     <div class="texto-logo">
       <span class="texto-logo-inicio">Lime</span><span class="texto-logo-fim">Comics</span>

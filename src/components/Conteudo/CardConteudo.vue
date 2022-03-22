@@ -1,10 +1,12 @@
 <template>
   <div class="card-conteudo">
+    <!-- TODO editar comportamento do card para que tenha botoes de editar e remover nas imagens-->
     <img class="imagem__card-conteudo" :src="image" :alt="produto">
     <div class="container__card-conteudo">
       <span class="titulo__card-conteudo">{{produto}}</span>
       <span class="preco__card-conteudo">{{preco}}</span>
-      <router-link to="/visao-geral-produto" class="detalhes__card-conteudo">Ver Produto</router-link>
+      <router-link :to="{name: 'Visão Geral do Produto'}" class="detalhes__card-conteudo">Ver Produto</router-link>
+      <!-- TODO editar comportamento do card para que tenha opção de inserir numeração ao inves de link -->
     </div>
   </div>
 </template>

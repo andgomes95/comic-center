@@ -16,10 +16,21 @@ const routes = [
     component: () => import('@/pages/LoginArea')
   },
   {
+    path: '/listagem-produtos',
+    name: 'Listagem dos Produtos',
+    component: () => import('@/pages/ListagemProdutos')
+  },
+  {
     path: '/visao-geral-produto',
     name: 'Visão Geral do Produto',
     component: () => import('@/pages/VisaoGeralProduto')
+  },
+  {
+    path: '/inserir-produto',
+    name: 'Inserir Produto',
+    component: () => import('@/pages/InserirProduto')
   }
+
 ]
 
 const router = new VueRouter({

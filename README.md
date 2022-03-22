@@ -16,7 +16,7 @@ npm run serve
 
 ## Proximas atividades
 - [x] Página inicial
-- [ ] Página de Login
-- [ ] Página de Conteudo unitário
+- [x] Página de Login
+- [x] Página de Conteudo unitário
 - [ ] Lista de Produtos (ADMIN)
 - [ ] Página Adição de Conteudo

@@ -16,8 +16,7 @@ export default {
     },
     estilo: String,
     url: { 
-      required: true,
-      type: String
+      required: true
       }
   },
 }
