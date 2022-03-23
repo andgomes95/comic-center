@@ -3,12 +3,10 @@
 </template>
 
 <script>
-import Botao from './Botao.vue'
+import Botao from "./Botao.vue";
 export default {
   components: { Botao },
-}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

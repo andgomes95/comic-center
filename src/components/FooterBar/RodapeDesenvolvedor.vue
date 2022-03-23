@@ -6,22 +6,20 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-.rodape-dev{
+.rodape-dev {
   display: flex;
   flex-direction: column;
   list-style-type: none;
   justify-content: center;
   align-items: center;
   padding: 32px;
-  background: #FFFFFF  
+  background: #ffffff;
 }
-.child__rodape-dev{
-  padding:5px;
+.child__rodape-dev {
+  padding: 5px;
 }
 </style>
