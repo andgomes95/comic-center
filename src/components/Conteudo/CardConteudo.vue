@@ -48,10 +48,10 @@ export default {
   align-items: flex-start;
   justify-content: flex-end;
   width: 100%;
-
   padding: 5%;
   font-family: var(--fonte-principal);
   font-style: normal;
+  
 }
 .preco__card-conteudo {
   font-weight: bold;

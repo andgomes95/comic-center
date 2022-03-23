@@ -39,7 +39,6 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 50px 0;
-  background-color: #e5e5e5;
 }
 .campos__loginArea {
   padding: 10px;

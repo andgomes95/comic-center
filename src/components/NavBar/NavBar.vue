@@ -29,6 +29,7 @@ export default {
   margin: 0;
   padding: 20px;
   overflow: hidden;
+  background-color: white;
 }
 .right__nav-bar {
   display: flex;

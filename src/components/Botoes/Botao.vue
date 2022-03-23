@@ -50,7 +50,7 @@ export default {
   background: var(--cor-terciaria);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .botao {
     padding: 12px 16px;
     font-weight: 600;
@@ -59,7 +59,7 @@ export default {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 750px) {
   .botao {
     padding: 16px;
     font-weight: 400;

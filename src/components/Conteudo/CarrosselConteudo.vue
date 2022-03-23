@@ -95,7 +95,8 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 95%;
 }
 .card-conteudo__carrossel {
   padding: 1%;

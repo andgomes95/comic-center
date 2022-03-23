@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav-bar></nav-bar>
-    <router-view />
+    <router-view class="fundoConteudo__app"/>
     <footer-bar />
     <rodape-desenvolvedor></rodape-desenvolvedor>
   </div>
@@ -37,5 +37,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   min-width: 450px;
+}
+.fundoConteudo__app{
+  background-color: #EEEEEE;
 }
 </style>
