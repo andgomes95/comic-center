@@ -1,3 +1,4 @@
+<!--TODO Ajuste do espaçamento do footer e alteração dos formularios para o do figma-->
 <template>
   <section class="bar__footer">
     <div class="content__footer">

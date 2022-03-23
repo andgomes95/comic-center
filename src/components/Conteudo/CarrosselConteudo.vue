@@ -9,6 +9,7 @@
         >Ver tudo <font-awesome-icon icon="arrow-right"
       /></router-link>
     </div>
+    <!--TODO ajustar espaçamento do carrossel-->
     <div class="conteudo__carrossel">
       <div class="conteudo-fixo__carrossel">
         <card-conteudo

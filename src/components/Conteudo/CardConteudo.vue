@@ -31,16 +31,16 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
+  width: 11rem;
+  height: 17rem;
   transition: 0.3s;
 }
 .card-conteudo:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .imagem__card-conteudo {
-  width: 100%;
-  height: 80%;
+  width: 11rem;
+  height: 11rem;
 }
 .container__card-conteudo {
   display: flex;
@@ -51,7 +51,6 @@ export default {
   padding: 5%;
   font-family: var(--fonte-principal);
   font-style: normal;
-  
 }
 .preco__card-conteudo {
   font-weight: bold;
