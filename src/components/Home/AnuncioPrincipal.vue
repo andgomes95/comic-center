@@ -1,23 +1,33 @@
 <template>
   <div class="anuncio">
     <ul class="lista__anuncio">
-    <li><h1 class="texto__anuncio">Dezembro Promocional</h1></li>
-    <li><h2 class="texto__anuncio">Produtos Selecionados com 33% de desconto</h2></li>
-    <li><botao estilo="primario" rotulo="Ver Promoções" class="botao__anuncio" url="/"></botao></li>
+      <li><h1 class="texto__anuncio">Dezembro Promocional</h1></li>
+      <li>
+        <h2 class="texto__anuncio">
+          Produtos Selecionados com 33% de desconto
+        </h2>
+      </li>
+      <li>
+        <botao
+          estilo="primario"
+          rotulo="Ver Promoções"
+          class="botao__anuncio"
+          url="/"
+        ></botao>
+      </li>
     </ul>
   </div>
 </template>
 
 <script>
-import Botao from '../Botoes/Botao.vue'
+import Botao from "../Botoes/Botao.vue";
 export default {
   components: { Botao },
-
-}
+};
 </script>
 
 <style>
-.anuncio{
+.anuncio {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -31,12 +41,17 @@ export default {
   padding: auto;
 
   /* imagemhero */
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../assets/banner.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 41.15%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../../assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.lista__anuncio{
+.lista__anuncio {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -44,10 +59,10 @@ export default {
   padding: 0% 40% 0% 5%;
   text-align: left;
 }
-.texto__anuncio{
+.texto__anuncio {
   color: white;
 }
-.botao__anuncio{
+.botao__anuncio {
   padding: 1em 3em;
 }
 </style>
