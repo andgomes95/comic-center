@@ -9,6 +9,7 @@
         >Ver tudo <font-awesome-icon icon="arrow-right"
       /></router-link>
     </div>
+    <!--TODO ajustar espaçamento do carrossel-->
     <div class="conteudo__carrossel">
       <div class="conteudo-fixo__carrossel">
         <card-conteudo
@@ -16,40 +17,46 @@
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :temLink="true"
         />
         <card-conteudo
-          class="card-conteudo__carrossel"
+        class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :temLink="true"
         />
       </div>
       <div class="conteudo-fixo__carrossel">
         <card-conteudo
-          class="card-conteudo__carrossel"
+        class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :temLink="true"
         />
         <card-conteudo
-          class="card-conteudo__carrossel"
+        class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :temLink="true"
         />
       </div>
       <div class="conteudo-apenas-desktop__carrossel">
         <card-conteudo
-          class="card-conteudo__carrossel"
+        class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :temLink="true"
         />
         <card-conteudo
-          class="card-conteudo__carrossel"
+        class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :temLink="true"
         />
       </div>
     </div>
@@ -78,8 +85,8 @@ export default {
 .carrossel {
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 1%;
+  align-items: flex-start;  
+  margin: 1rem;
 }
 .titulo__carrossel {
   display: flex;
@@ -87,7 +94,6 @@ export default {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 1%;
   font-family: var(--fonte-principal);
   font-style: normal;
 }
@@ -96,10 +102,6 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 95%;
-}
-.card-conteudo__carrossel {
-  padding: 1%;
 }
 .conteudo-apenas-desktop__carrossel {
   display: flex;
@@ -122,7 +124,7 @@ export default {
   line-height: 19px;
   color: var(--cor-primaria);
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .conteudo-apenas-desktop__carrossel {
     display: none !important;
   }

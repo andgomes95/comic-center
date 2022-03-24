@@ -74,7 +74,7 @@ export default {
   padding: 1% 0;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1100px) {
   .conteudo__visaoGeralProduto {
     padding: 1% 15%;
   }

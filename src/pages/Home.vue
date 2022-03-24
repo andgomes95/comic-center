@@ -24,7 +24,7 @@ export default {
   align-items: center;
   text-align: center;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1100px) {
   .conteudo {
     padding: 1% 15%;
   }

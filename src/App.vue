@@ -1,7 +1,10 @@
+<!--TODO Ajustar tamanhos definidos previamente para Rem ou %-->
 <template>
   <div id="app">
     <nav-bar></nav-bar>
-    <router-view class="fundoConteudo__app"/>
+    <div class="fundoConteudo__app">
+    <router-view />
+    </div>
     <footer-bar />
     <rodape-desenvolvedor></rodape-desenvolvedor>
   </div>
@@ -36,9 +39,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-width: 450px;
 }
-.fundoConteudo__app{
-  background-color: #EEEEEE;
+.fundoConteudo__app {
+  background-color: #efefef;
+}
+.conteudo__app{
+  align-items: center;
 }
 </style>

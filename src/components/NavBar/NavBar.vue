@@ -4,7 +4,7 @@
     <li><search-bar class="search-bar__nav-bar" /></li>
     <li class="right__nav-bar">
       <botao-login class="right-child__nav-bar"></botao-login>
-      <!--TODO navbar mobile não operacional-->
+      <!--TODO navbar mobile não operacional, ajuste de posicionamento-->
       <mobile-search-bar class="mobile-search__nav-bar right-child__nav-bar" />
     </li>
   </ul>

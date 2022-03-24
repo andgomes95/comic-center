@@ -6,11 +6,12 @@
       <span class="titulo__card-conteudo">{{ produto }}</span>
       <span class="preco__card-conteudo">{{ preco }}</span>
       <router-link
+        v-if="temLink"
         :to="{ name: 'Visão Geral do Produto' }"
         class="detalhes__card-conteudo"
         >Ver Produto</router-link
       >
-      <!-- TODO editar comportamento do card para que tenha opção de inserir numeração ao inves de link -->
+      <span v-if="!temLink" class="preco__card-conteudo">{{ numeroProduto }}</span>
     </div>
   </div>
 </template>
@@ -21,6 +22,8 @@ export default {
     image: String,
     produto: String,
     preco: String,
+    numeroProduto: String,
+    temLink: Boolean
   },
 };
 </script>
@@ -31,16 +34,17 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
+  min-width: 10rem;
+  min-height: 15rem;
   transition: 0.3s;
+  margin: 0.5rem;
 }
 .card-conteudo:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .imagem__card-conteudo {
   width: 100%;
-  height: 80%;
+  width: 100%;
 }
 .container__card-conteudo {
   display: flex;
@@ -51,7 +55,6 @@ export default {
   padding: 5%;
   font-family: var(--fonte-principal);
   font-style: normal;
-  
 }
 .preco__card-conteudo {
   font-weight: bold;
