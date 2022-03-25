@@ -1,5 +1,4 @@
 <template>
-  <!--TODO criar display dinamico para exibir inumeros cards-->
   <div class="todosItens">
     <div class="header__todosItens">
       <span class="titulo__todosItens">Titulo Chamativo</span>
@@ -45,18 +44,19 @@ export default {
         class: "card-conteudo__todosItems",
         produto: "ProdutoXYZ",
         preco: "R$ 60,00",
-        image: "https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000",
-        temLink:false,
-        numeroProduto:"#1111111",
+        image:
+          "https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000",
+        temLink: false,
+        numeroProduto: "#1111111",
       },
-      n:0
+      n: 0,
     };
   },
 };
 </script>
 
 <style scoped>
-.todosItens{
+.todosItens {
   margin: 1rem 2rem;
 }
 .header__todosItens {
@@ -68,12 +68,12 @@ export default {
   font-family: var(--fonte-principal);
   font-style: normal;
 }
-.titulo__todosItens{
+.titulo__todosItens {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
 }
-.produtos__todosItens{
+.produtos__todosItens {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }

@@ -9,7 +9,6 @@
         >Ver tudo <font-awesome-icon icon="arrow-right"
       /></router-link>
     </div>
-    <!--TODO ajustar espaçamento do carrossel-->
     <div class="conteudo__carrossel">
       <div class="conteudo-fixo__carrossel">
         <card-conteudo
@@ -20,7 +19,7 @@
           :temLink="true"
         />
         <card-conteudo
-        class="card-conteudo__carrossel"
+          class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
@@ -29,14 +28,14 @@
       </div>
       <div class="conteudo-fixo__carrossel">
         <card-conteudo
-        class="card-conteudo__carrossel"
+          class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
           :temLink="true"
         />
         <card-conteudo
-        class="card-conteudo__carrossel"
+          class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
@@ -45,14 +44,14 @@
       </div>
       <div class="conteudo-apenas-desktop__carrossel">
         <card-conteudo
-        class="card-conteudo__carrossel"
+          class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
           :temLink="true"
         />
         <card-conteudo
-        class="card-conteudo__carrossel"
+          class="card-conteudo__carrossel"
           produto="ProdutoXYZ"
           preco="R$ 60,00"
           image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
@@ -85,7 +84,7 @@ export default {
 .carrossel {
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-start;  
+  align-items: flex-start;
   margin: 1rem;
 }
 .titulo__carrossel {

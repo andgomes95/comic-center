@@ -3,7 +3,7 @@
   <div id="app">
     <nav-bar></nav-bar>
     <div class="fundoConteudo__app">
-    <router-view />
+      <router-view />
     </div>
     <footer-bar />
     <rodape-desenvolvedor></rodape-desenvolvedor>
@@ -43,7 +43,7 @@ export default {
 .fundoConteudo__app {
   background-color: #efefef;
 }
-.conteudo__app{
+.conteudo__app {
   align-items: center;
 }
 </style>
