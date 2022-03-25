@@ -11,7 +11,9 @@
         class="detalhes__card-conteudo"
         >Ver Produto</router-link
       >
-      <span v-if="!temLink" class="preco__card-conteudo">{{ numeroProduto }}</span>
+      <span v-if="!temLink" class="preco__card-conteudo">{{
+        numeroProduto
+      }}</span>
     </div>
   </div>
 </template>
@@ -23,7 +25,7 @@ export default {
     produto: String,
     preco: String,
     numeroProduto: String,
-    temLink: Boolean
+    temLink: Boolean,
   },
 };
 </script>

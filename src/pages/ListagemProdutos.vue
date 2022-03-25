@@ -1,7 +1,6 @@
 <template>
   <div class="conteudo">
     <todos-itens-conteudo />
-    <!-- TODO Criar componente baseada no carrossel, com itens infinitos com o mesmo comportamento. Ao inves de ver tudo, ter botão de adicionar produto -->
   </div>
 </template>
 
