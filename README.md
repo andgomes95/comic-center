@@ -1,5 +1,5 @@
-# Lime Comics
-<center>![Lime Comics](public/logo.png) </center>
+![Lime Comics](https://i.imgur.com/qhZ0pX5.png)
+ 
 Adaptação do Alura Challange #3, como uma loja de quadrinhos virtual.
 
 >:construction: Projeto em construção :construction:
