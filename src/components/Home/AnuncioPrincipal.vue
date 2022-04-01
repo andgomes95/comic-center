@@ -12,7 +12,7 @@
           estilo="primario"
           rotulo="Ver Promoções"
           class="botao__anuncio"
-          url="#mangas"
+          url="#marvel"
         ></botao>
       </li>
     </ul>

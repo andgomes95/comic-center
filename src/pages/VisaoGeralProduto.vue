@@ -13,7 +13,7 @@
     </div>
     <carrossel-conteudo
       :isProdutoSimilares="true"
-      titulo="Produtos Similares"
+      titulo="Marvel"
     />
   </div>
 </template>
@@ -26,10 +26,18 @@ export default {
     return {
       texto:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
-      titulo: "LIMÃO",
+      titulo: "Citricos",
       preco: "R$ 5,00",
     };
   },
+  watch:{
+    "$route.query.produto":{
+      immediate: true,
+      handler(produto){
+        this.titulo = produto;
+      }
+    }
+  }
 };
 </script>
 
