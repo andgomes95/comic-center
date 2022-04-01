@@ -68,6 +68,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import fontawesome from "@fortawesome/fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
 import solid from "@fortawesome/fontawesome-free-solid";
+import axios from "axios";
 
 fontawesome.library.add(brands, solid);
 export default {
@@ -77,6 +78,19 @@ export default {
     titulo: String,
     semTitulo: Boolean,
   },
+  data: () =>{
+    return {
+      listaDeCartas: []
+    }
+  },
+  mounted (){
+    axios.get('http://localhost:3000/produtos').then(response =>{
+      this.listaDeCartas = response.data.filter((item)=>{
+          return item.categoria == this.titulo
+      })
+      console.log(this.listaDeCartas)
+    })
+  }
 };
 </script>
 
