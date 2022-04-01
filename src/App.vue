@@ -42,8 +42,10 @@ export default {
 }
 .fundoConteudo__app {
   background-color: #efefef;
+  margin: 0;
 }
 .conteudo__app {
   align-items: center;
+  
 }
 </style>

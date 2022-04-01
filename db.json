@@ -1,0 +1,28 @@
+{
+  "produtos":[
+    {
+      "id": 1,
+      "nome": "Limão",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 5.00,
+      "imagem": "https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000",
+      "categoria": "Citricos"
+    },
+    {
+      "id": 2,
+      "nome": "Laranja",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 6.00,
+      "imagem": "https://thumbs.dreamstime.com/b/laranja-quadrada-4606127.jpg",
+      "categoria": "Carnosos"
+    },
+    {
+      "id": 3,
+      "nome": "Lichia",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 7.00,
+      "imagem": "https://static5.depositphotos.com/1006597/536/i/600/depositphotos_5362508-stock-photo-lychee.jpg",
+      "categoria": "Exoticos"
+    }
+  ]
+}

@@ -20,6 +20,13 @@
         />
       </div>
       <div class="campos__loginArea">
+        <input
+          type="text"
+          placeholder="Categoria do Produto"
+          class="input-nome__loginArea input__loginArea"
+        />
+      </div>
+      <div class="campos__loginArea">
         <textarea
           rows="5"
           placeholder="Descrição do Produto"
