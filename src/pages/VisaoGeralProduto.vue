@@ -13,7 +13,7 @@
     </div>
     <carrossel-conteudo
       :isProdutoSimilares="true"
-      titulo="Citricos"
+      titulo="Marvel"
     />
   </div>
 </template>
@@ -30,6 +30,14 @@ export default {
       preco: "R$ 5,00",
     };
   },
+  watch:{
+    "$route.query.produto":{
+      immediate: true,
+      handler(produto){
+        this.titulo = produto;
+      }
+    }
+  }
 };
 </script>
 

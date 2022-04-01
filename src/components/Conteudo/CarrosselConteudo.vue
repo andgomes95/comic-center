@@ -84,12 +84,11 @@ export default {
     }
   },
   mounted (){
-    //https://comic-center-api.herokuapp.com
-    axios.get('http://localhost:3000/produtos').then(response =>{
+    //http://localhost:3000
+    axios.get('https://comic-center-api.herokuapp.com/produtos').then(response =>{
       this.listaDeCartas = response.data.filter((item)=>{
           return item.categoria == this.titulo
       })
-      console.log(this.listaDeCartas)
     })
   }
 };
