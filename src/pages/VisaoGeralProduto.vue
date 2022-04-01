@@ -3,38 +3,45 @@
     <div class="produtoPrincipal__visaoGeralProduto">
       <img
         class="imagemPrincipal__visaoGeralProduto"
-        src="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+        :src="produto.imagem"
       />
       <div class="texto__visaoGeralProduto">
-        <span class="titulo__visaoGeralProduto">{{ titulo }}</span>
-        <span class="preco__visaoGeralProduto">{{ preco }}</span>
-        <span>{{ texto }} </span>
+        <span class="titulo__visaoGeralProduto">{{ produto.nome }}</span>
+        <span class="preco__visaoGeralProduto">{{ 'R$ ' + produto.preco.toFixed(2) }}</span>
+        <span>{{ produto.descricao }} </span>
       </div>
     </div>
     <carrossel-conteudo
       :isProdutoSimilares="true"
-      titulo="Marvel"
+      :titulo="produto.categoria"
     />
   </div>
 </template>
 
 <script>
 import CarrosselConteudo from "../components/Conteudo/CarrosselConteudo.vue";
+import axios from "axios";
 export default {
   components: { CarrosselConteudo },
   data: () => {
     return {
-      texto:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
-      titulo: "Citricos",
-      preco: "R$ 5,00",
+      produto: {
+        nome: "",
+        descricao: "",
+        preco: "0",
+        imagem: "",
+        categoria: ""
+      }
     };
   },
   watch:{
     "$route.query.produto":{
       immediate: true,
-      handler(produto){
-        this.titulo = produto;
+      async handler(produto){
+          await axios.get('https://comic-center-api.herokuapp.com/produtos?nome='+produto).then(response =>{
+            console.log(response.data)
+            this.produto = response.data[0];
+        })
       }
     }
   }
