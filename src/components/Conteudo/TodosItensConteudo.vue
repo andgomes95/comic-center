@@ -1,7 +1,7 @@
 <template>
   <div class="todosItens">
     <div class="header__todosItens">
-      <span class="titulo__todosItens">Titulo Chamativo</span>
+      <span class="titulo__todosItens">{{titulo}}</span>
       <botao
         :url="{ name: 'Inserir Produto' }"
         estilo="primario"
@@ -9,14 +9,13 @@
       ></botao>
     </div>
     <div class="produtos__todosItens">
-      <div v-for="n in 20" :key="n">
+      <div v-for="conteudoCard in listaDeItens" :key="conteudoCard.id">
         <card-conteudo
-          :class="conteudoCard.class"
-          :produto="conteudoCard.produto"
-          :preco="conteudoCard.preco"
-          :image="conteudoCard.image"
-          :temLink="conteudoCard.temLink"
-          :numeroProduto="conteudoCard.numeroProduto"
+          :produto="conteudoCard.nome"
+          :preco="'R$ ' +conteudoCard.preco.toFixed(2)"
+          :image="conteudoCard.imagem"
+          :temLink="false"
+          :numeroProduto="conteudoCard.categoria"
         />
       </div>
     </div>
@@ -29,29 +28,41 @@ import fontawesome from "@fortawesome/fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
 import solid from "@fortawesome/fontawesome-free-solid";
 import Botao from "../Botoes/Botao.vue";
+import axios from "axios";
 
 fontawesome.library.add(brands, solid);
 export default {
   components: { CardConteudo, Botao },
   props: {
     isProdutoSimilares: Boolean,
-    titulo: String,
     semTitulo: Boolean,
   },
   data: () => {
     return {
-      conteudoCard: {
-        class: "card-conteudo__todosItems",
-        produto: "ProdutoXYZ",
-        preco: "R$ 60,00",
-        image:
-          "https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000",
-        temLink: false,
-        numeroProduto: "#1111111",
-      },
-      n: 0,
+      listaDeItens: [],
+      titulo: "Marvel"
     };
   },
+    mounted (){
+    //http://localhost:3000
+    axios.get('https://comic-center-api.herokuapp.com/produtos?=Mangas').then(response =>{
+      this.listaDeItens = response.data.filter((item)=>{
+          return item.categoria == this.titulo
+      })
+    })
+  },
+  watch: {
+    "$route.query.titulo":{
+      immediate: true,
+      async handler(titulo){
+        this.titulo = titulo;
+          await axios.get('https://comic-center-api.herokuapp.com/produtos?categoria='+titulo).then(response =>{
+            console.log(response.data)
+            this.produto = response.data;
+        })
+      }
+    }
+  }
 };
 </script>
 

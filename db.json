@@ -143,6 +143,70 @@
       "preco": 43.00,
       "imagem": "https://images-na.ssl-images-amazon.com/images/I/91dm5V3p6FL.jpg",
       "categoria": "DC"
+    },
+    {
+      "id": 19,
+      "nome": "Hunter x Hunter",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 33.90,
+      "imagem": "https://cdn.myanimelist.net/images/manga/5/45187l.jpg?_gl=1*18jq2fb*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzYyMTYuNTk.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 20,
+      "nome": "Inspector Akane Tsunemori",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 23.00,
+      "imagem": "https://cdn.myanimelist.net/images/manga/5/152963l.jpg?_gl=1*hn8d7a*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzYyNjMuMTI.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 21,
+      "nome": "Jojo Bizarre Adventures",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 53.00,
+      "imagem": "https://cdn.myanimelist.net/images/manga/2/78993l.jpg?_gl=1*ujrumq*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzYyOTAuNTI.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 22,
+      "nome": "Your Lie in April",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 43.00,
+      "imagem": "https://cdn.myanimelist.net/images/manga/3/102691l.jpg?_gl=1*10unfpe*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzYzNDguNTY.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 23,
+      "nome": "The Boy and The Beast",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 45.50,
+      "imagem": "https://cdn.myanimelist.net/images/manga/3/186224l.jpg?_gl=1*4l7vp*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzYzODUuMTk.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 24,
+      "nome": "A Silent Voice",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 13.00,
+      "imagem": "https://cdn.myanimelist.net/images/manga/2/120533l.jpg?_gl=1*1iz1ytp*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzY0NDQuMzE.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 25,
+      "nome": "Haikyuu",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 22.00,
+      "imagem": "https://cdn.myanimelist.net/images/manga/4/89519l.jpg?_gl=1*pf5ka2*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzY0ODAuNTc.",
+      "categoria": "Mangas"
+    },
+    {
+      "id": 26,
+      "nome": "March Comes in Like a Lion",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "preco": 15.50,
+      "imagem": "https://cdn.myanimelist.net/images/manga/3/52285l.jpg?_gl=1*ewvk2k*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgzNjAyNS45Ny4xLjE2NDg4MzY1MzcuNjA.",
+      "categoria": "Mangas"
     }
   ]
 }

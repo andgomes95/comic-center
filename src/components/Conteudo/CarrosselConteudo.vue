@@ -3,7 +3,7 @@
     <div class="titulo__carrossel" v-if="!semTitulo">
       <span class="texto-titulo__carrossel">{{ titulo }}</span>
       <router-link
-        :to="{ name: 'Listagem dos Produtos' }"
+        :to="{ name: 'Listagem dos Produtos', query :{ titulo : this.titulo} }"
         class="ver-tudo__Carrossel"
         v-if="!isProdutoSimilares"
         >Ver tudo <font-awesome-icon icon="arrow-right"
@@ -17,6 +17,7 @@
           :preco="'R$ ' +listaDeCartas[0].preco.toFixed(2)"
           :image="listaDeCartas[0].imagem"
           :temLink="true"
+          v-if="listaDeCartas.length > 0"
         />
         <card-conteudo
           class="card-conteudo__carrossel"
@@ -24,6 +25,7 @@
           :preco="'R$ ' +listaDeCartas[1].preco.toFixed(2)"
           :image="listaDeCartas[1].imagem"
           :temLink="true"
+          v-if="listaDeCartas.length > 1"
         />
       </div>
       <div class="conteudo-fixo__carrossel">
@@ -33,6 +35,7 @@
           :preco="'R$ ' +listaDeCartas[2].preco.toFixed(2)"
           :image="listaDeCartas[2].imagem"
           :temLink="true"
+          v-if="listaDeCartas.length > 2"
         />
         <card-conteudo
           class="card-conteudo__carrossel"
@@ -40,6 +43,7 @@
           :preco="'R$ ' +listaDeCartas[3].preco.toFixed(2)"
           :image="listaDeCartas[3].imagem"
           :temLink="true"
+          v-if="listaDeCartas.length > 3"
         />
       </div>
       <div class="conteudo-apenas-desktop__carrossel">
@@ -49,6 +53,7 @@
           :preco="'R$ ' +listaDeCartas[4].preco.toFixed(2)"
           :image="listaDeCartas[4].imagem"
           :temLink="true"
+          v-if="listaDeCartas.length > 4"
         />
         <card-conteudo
           class="card-conteudo__carrossel"
@@ -56,6 +61,7 @@
           :preco="'R$ ' +listaDeCartas[5].preco.toFixed(2)"
           :image="listaDeCartas[5].imagem"
           :temLink="true"
+          v-if="listaDeCartas.length > 5"
         />
       </div>
     </div>
