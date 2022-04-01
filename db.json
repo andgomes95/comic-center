@@ -3,49 +3,49 @@
     {
       "id": 1,
       "nome": "Beck: Mongolian Chop Squad",
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "descricao": "Beck conta a história de um adolescente japonês chamado Yukio Tanaka que começa a música (guitarra) e ao mesmo tempo, junto com amigos, forma uma banda de rock .",
       "preco": 24.90,
-      "imagem": "https://m.media-amazon.com/images/P/B07CLPT13C.01._SCLZZZZZZZ_SX500_.jpg",
+      "imagem": "https://i.imgur.com/mmjfTb9.jpg",
       "categoria": "Mangas"
     },
     {
       "id": 2,
       "nome": "Legend of the Galactic Heroes",
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "descricao": "Durante décadas, o Império Galáctico trava uma guerra interestelar com a Aliança de Planetas Livres, um conflito que envolve milhares de naves espaciais e milhões de soldados de ambos os lados. Dois novos comandantes entram no conflito com grandes esperanças: Almirante Imperial Reinhard von Lohengramm e Yang Wen-Li da Aliança de Planetas Livres. Como eles lidam com seus superiores e subalternos, através de manobra regime político complicado, enredo estratégico, ganhar batalhas, cada um será testado e, em última instância, mudados, pela realidade da guerra.",
       "preco": 30.00,
-      "imagem": "https://cdn.myanimelist.net/images/manga/2/173521l.jpg?_gl=1*5jyfm0*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgyMDMwMC45NS4xLjE2NDg4MjA2MTIuNDE.",
+      "imagem": "https://i.imgur.com/Gde7831.png",
       "categoria": "Mangas"
     },
     {
       "id": 3,
       "nome": "Tengen Toppa Gurren Lagann",
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "descricao": "Em um futuro distante, a humanidade vive no subsolo em enormes cavernas, desconhecimento de um mundo acima com um céu e as estrelas, na pequena aldeia de Jiha, Simon, um garoto tímido que trabalha como coveiro descobre um estranho objeto brilhante durante a escavação, o Kamina empreendedor, um jovem com um par de óculos de sol rakish ea paixão de um sol firey, faz amizade com Simon e forma um pequeno grupo de irmãos, a Brigada Gurren, para escapar da aldeia e romper o teto da caverna para chegar ao superfície, o que poucos acreditam existir, o ancião da aldeia não vai ouvir de tal insensatez e pune a Brigada, no entanto, quando ocorre uma catástrofe do mundo acima e toda a aldeia está em perigo, cabe a Simon, Kamina, uma menina com uma grande arma chamada Yoko, eo robô pequeno, mas robusto, Lagann, para salvar o dia, os novos amigos viagem ao mundo acima e achar que a superfície é uma batalha dura, e cabe a eles para lutar contra o Beastmen furiosos para virar a maré em favor dos seres humanos! Para os céus, Gurren Lagann",
       "preco": 27.00,
-      "imagem": "https://cdn.myanimelist.net/images/manga/4/22596l.jpg?_gl=1*tf3ze9*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgyMDMwMC45NS4xLjE2NDg4MjA2NjEuNTg.",
+      "imagem": "https://i.imgur.com/ZqSSPbw.png",
       "categoria": "Mangas"
     },
     {
       "id": 4,
       "nome": "Code Geass",
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "descricao": "Um estudante com o poder do seu Geass, um olho poderoso que faz qualquer pessoa seguir as ordens de quem o possui, lidera uma rebelião para recuperar o Japão dos domínios da Britannia e criar um mundo gentil no qual sua irmã sempre sonhou em viver.",
       "preco": 22.00,
-      "imagem": "https://cdn.myanimelist.net/images/manga/1/121685l.jpg?_gl=1*3iysr3*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgyMDMwMC45NS4xLjE2NDg4MjA3MzUuNDc.",
+      "imagem": "https://i.imgur.com/XLUG8et.png",
       "categoria": "Mangas"
     },
     {
       "id": 5,
       "nome": "Fullmetal Alchemist",
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "descricao": "Dois irmãos alquimistas acabam de iniciar a maior e mais perigosa jornada de suas vidas: partiram em uma busca alucinante por uma poderosa pedra filosofal, que supostamente teria o poder de trazer mortos à vida, tudo isso como parte de um plano para ressucitar sua mãe. O problema é que, durante o processo, as coisas acabam saindo fora de controle.",
       "preco": 37.00,
-      "imagem": "https://cdn.myanimelist.net/images/manga/3/243675l.jpg?_gl=1*18etg2q*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgyMDMwMC45NS4xLjE2NDg4MjA3OTAuNTM.",
+      "imagem": "https://i.imgur.com/Q1C0y9U.png",
       "categoria": "Mangas"
     },
     {
       "id": 6,
       "nome": "Sket Dance",
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius tristique egestas. Aenean ut gravida turpis, a mattis lorem. Nullam sit amet dui tristique, convallis erat blandit, consequat enim. Proin viverra sodales facilisis. Maecenas vel rhoncus justo. Donec rutrum elementum ante, quis venenatis ante blandit sed. Curabitur sed blandit ante. Cras eleifend mi eu felis placerat scelerisque. Nulla efficitur tellus eu urna efficitur vulputate. Aenean sodales semper mi vitae venenatis. In hendrerit id nibh ac fermentum. Fusce est est, ullamcorper non lectus at, lobortis convallis leo. Pellentesque sodales mauris in libero viverra, eu efficitur dolor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam purus tellus, faucibus dignissim velit quis, feugiat pretium quam. Vestibulum erat libero, vulputate vitae nunc eget, tristique convallis leo.",
+      "descricao": "O mangá se concentra nas aventuras do clube de apoio 'Sket Dan', da Escola Secundária Kaimei, sendo que a sigla 'SKET'( Support, Kindness, Encouragement and Troubleshoot) tem como significado bondade, apoio, incentivo e solução de problemas. O clube é dedicado a resolver quaisquer e todos os problemas apresentados pela equipe ou corpo docente. No entanto, devido à sua falta de atribuições significativas e a reputação de ser 'apenas um clube para pessoas desocupadas', o Sket Dan é tratado com desprezo e possui apenas três membros. Através do passado dos protagonistas e dos casos apresentados pelos demais alunos de Kaimei, o mangá aborda temas como bullying, depressão, delinquência juvenil e reclusão social, sempre alternando entre histórias cômicas e dramáticas.",
       "preco": 32.00,
-      "imagem": "https://cdn.myanimelist.net/images/manga/1/173959l.jpg?_gl=1*r6c8u9*_ga*MTk4MTQwNzcyOC4xNjM5ODQ4MDIx*_ga_26FEP9527K*MTY0ODgyMDMwMC45NS4xLjE2NDg4MjA4NjIuNDU.",
+      "imagem": "https://i.imgur.com/6MYSDmN.png",
       "categoria": "Mangas"
     },
     {

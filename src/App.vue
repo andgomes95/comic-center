@@ -27,9 +27,9 @@ export default {
 
 <style>
 :root {
-  --cor-primaria: #2a7ae4; /* #77AF9C; */
-  --cor-secundaria: #d4e4fa; /*#FEEFDD;*/
-  --cor-terciaria: #5595e9; /*#132A13;*/
+  --cor-primaria: /*#2a7ae4;*/  #77AF9C; 
+  --cor-secundaria: /*#d4e4fa;*/ #FEEFDD;
+  --cor-terciaria: /*#5595e9;*/ #132A13;
   --fonte-principal: "Raleway";
 }
 

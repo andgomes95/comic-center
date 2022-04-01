@@ -15,7 +15,7 @@
           :preco="'R$ ' +conteudoCard.preco.toFixed(2)"
           :image="conteudoCard.imagem"
           :temLink="false"
-          :numeroProduto="conteudoCard.categoria"
+          :numeroProduto="conteudoCard.id"
         />
       </div>
     </div>

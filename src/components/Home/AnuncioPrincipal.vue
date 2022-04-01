@@ -1,7 +1,7 @@
 <template>
   <div class="anuncio">
     <ul class="lista__anuncio">
-      <li><h1 class="texto__anuncio">Dezembro Promocional</h1></li>
+      <li><h1 class="texto__anuncio">Abril Marvel</h1></li>
       <li>
         <h2 class="texto__anuncio">
           Produtos Selecionados com 33% de desconto
@@ -10,7 +10,7 @@
       <li>
         <botao
           estilo="primario"
-          rotulo="Ver Promoções"
+          rotulo="Ver Sessão Marvel"
           class="botao__anuncio"
           url="#marvel"
         ></botao>
@@ -48,7 +48,7 @@ export default {
     ),
     url(../../assets/banner.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
   background-position: center;
 }
 .lista__anuncio {
@@ -64,5 +64,10 @@ export default {
 }
 .botao__anuncio {
   padding: 1em 3em;
+}
+@media only screen and (min-width: 1450px) {
+  .anuncio {
+    background-size: 100%;
+  }
 }
 </style>
