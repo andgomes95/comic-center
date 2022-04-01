@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- TODO criar tela com inputs para arrastar imagem, procurar no computador, inserir nome, preço e descrição do produto, e botão de confirmar adição-->
     <form class="loginArea">
       <div class="campos__loginArea">
         <span class="titulo__loginArea">Adicionar novo produto</span>
@@ -23,6 +22,13 @@
         <input
           type="text"
           placeholder="Categoria do Produto"
+          class="input-nome__loginArea input__loginArea"
+        />
+      </div>
+      <div class="campos__loginArea">
+        <input
+          type="text"
+          placeholder="Url da Imagem"
           class="input-nome__loginArea input__loginArea"
         />
       </div>

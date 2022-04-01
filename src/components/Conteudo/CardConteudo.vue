@@ -11,7 +11,7 @@
         >Ver Produto</router-link
       >
       <span v-if="!temLink" class="preco__card-conteudo">{{
-        numeroProduto
+        "#"+numeroProduto
       }}</span>
     </div>
   </div>
@@ -52,6 +52,7 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
+  text-align: start;
   width: 100%;
   padding: 5%;
   font-family: var(--fonte-principal);

@@ -64,10 +64,14 @@ export default {
 }
 .imagemPrincipal__visaoGeralProduto {
   width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height: 500px;
 }
 .texto__visaoGeralProduto {
   display: flex;
   flex-direction: column;
+
   text-align: start;
   padding: 2% 5%;
   font-family: "Raleway";
@@ -76,7 +80,7 @@ export default {
   font-size: 16px;
   line-height: 19px;
   color: #464646;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .titulo__visaoGeralProduto {
   font-weight: 500;

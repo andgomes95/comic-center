@@ -22,20 +22,19 @@ npm run serve
 - [x] Lista de Produtos (ADMIN)
 - [ ] Página Adição de Conteudo
   - [ ] Inserir imagem região para drag and drop
-- [ ] Adicionar funcionalidade - Botão ver console
-  - [ ] Mudar imagem do anuncio
-  - [ ] Modificar texto do anuncio
+- [x] Adicionar funcionalidade - Botão ver console
+  - [x] Mudar imagem do anuncio
+  - [x] Modificar texto do anuncio
 - [ ] API - Listar Produtos
-  - [ ] Popular API
-  - [ ] Remover imagens estaticas e padronizar imagens
-- [ ] Adicionar Funcionalidade - Ver Produto
-- [ ] API - Descrição do produto
+  - [x] Popular API
+  - [ ] Padronizar imagens
+  - [ ] Editar Descrições
+- [x] Adicionar Funcionalidade - Ver Produto
+- [x] API - Descrição do produto
 - [ ] Adicionar funcionalidade - Barra de pesquisa
+  - [ ] Botão de procura no mobile
 - [ ] Validação formulário "Fale Conosco" - Rodapé
+  - [ ] Estilização dos Formulários
 - [ ] Validação formulário - Iniciar Sessão
 - [ ] Validação formulário - Adicionar novo produto
 - [ ] Extra - Ver Tudo
-
-## 💪 Pontos a melhorar
-- [ ] Estilização dos Formulários
-- [ ] Botão de procura no mobile
