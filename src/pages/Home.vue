@@ -2,9 +2,9 @@
   <div>
     <anuncio-principal />
     <div class="conteudo">
-      <carrossel-conteudo :isProdutoSimilares="false" titulo="Citricos" />
-      <carrossel-conteudo id="mangas" :isProdutoSimilares="false" titulo="Carnosos" />
-      <carrossel-conteudo id="hqs" :isProdutoSimilares="false" titulo="Exoticos" />
+      <carrossel-conteudo id="mangas" :isProdutoSimilares="false" titulo="Mangas" />
+      <carrossel-conteudo id="marvel" :isProdutoSimilares="false" titulo="Marvel" />
+      <carrossel-conteudo id="dc" :isProdutoSimilares="false" titulo="DC" />
     </div>
   </div>
 </template>

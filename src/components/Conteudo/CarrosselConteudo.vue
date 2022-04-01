@@ -11,50 +11,50 @@
     </div>
     <div class="conteudo__carrossel">
       <div class="conteudo-fixo__carrossel">
-        <card-conteudo
+       <card-conteudo
           class="card-conteudo__carrossel"
-          produto="ProdutoXYZ"
-          preco="R$ 60,00"
-          image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :produto="listaDeCartas[0].nome"
+          :preco="'R$ ' +listaDeCartas[0].preco.toFixed(2)"
+          :image="listaDeCartas[0].imagem"
           :temLink="true"
         />
         <card-conteudo
           class="card-conteudo__carrossel"
-          produto="ProdutoXYZ"
-          preco="R$ 60,00"
-          image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :produto="listaDeCartas[1].nome"
+          :preco="'R$ ' +listaDeCartas[1].preco.toFixed(2)"
+          :image="listaDeCartas[1].imagem"
           :temLink="true"
         />
       </div>
       <div class="conteudo-fixo__carrossel">
         <card-conteudo
           class="card-conteudo__carrossel"
-          produto="ProdutoXYZ"
-          preco="R$ 60,00"
-          image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :produto="listaDeCartas[2].nome"
+          :preco="'R$ ' +listaDeCartas[2].preco.toFixed(2)"
+          :image="listaDeCartas[2].imagem"
           :temLink="true"
         />
         <card-conteudo
           class="card-conteudo__carrossel"
-          produto="ProdutoXYZ"
-          preco="R$ 60,00"
-          image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :produto="listaDeCartas[3].nome"
+          :preco="'R$ ' +listaDeCartas[3].preco.toFixed(2)"
+          :image="listaDeCartas[3].imagem"
           :temLink="true"
         />
       </div>
       <div class="conteudo-apenas-desktop__carrossel">
         <card-conteudo
           class="card-conteudo__carrossel"
-          produto="ProdutoXYZ"
-          preco="R$ 60,00"
-          image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :produto="listaDeCartas[4].nome"
+          :preco="'R$ ' +listaDeCartas[4].preco.toFixed(2)"
+          :image="listaDeCartas[4].imagem"
           :temLink="true"
         />
         <card-conteudo
           class="card-conteudo__carrossel"
-          produto="ProdutoXYZ"
-          preco="R$ 60,00"
-          image="https://media-we-cdn.oriflame.com/-/media/Images/Ingredient-Library/Ingredients/lime.ashx?u=0101010000"
+          :produto="listaDeCartas[5].nome"
+          :preco="'R$ ' +listaDeCartas[5].preco.toFixed(2)"
+          :image="listaDeCartas[5].imagem"
           :temLink="true"
         />
       </div>
@@ -84,6 +84,7 @@ export default {
     }
   },
   mounted (){
+    //https://comic-center-api.herokuapp.com
     axios.get('http://localhost:3000/produtos').then(response =>{
       this.listaDeCartas = response.data.filter((item)=>{
           return item.categoria == this.titulo

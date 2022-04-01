@@ -23,7 +23,11 @@ npm run serve
 - [ ] Página Adição de Conteudo
   - [ ] Inserir imagem região para drag and drop
 - [ ] Adicionar funcionalidade - Botão ver console
+  - [ ] Mudar imagem do anuncio
+  - [ ] Modificar texto do anuncio
 - [ ] API - Listar Produtos
+  - [ ] Popular API
+  - [ ] Remover imagens estaticas e padronizar imagens
 - [ ] Adicionar Funcionalidade - Ver Produto
 - [ ] API - Descrição do produto
 - [ ] Adicionar funcionalidade - Barra de pesquisa
